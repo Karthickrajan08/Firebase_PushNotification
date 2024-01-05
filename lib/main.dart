@@ -15,9 +15,9 @@ void main() async {
 }
 
 Future<void> _futureBackgroundMessage(RemoteMessage message) async {
-  debugPrint("back ground");
-  debugPrint("onBackground_title : ${message.notification!.title}");
-  debugPrint("onBackground_body : ${message.notification!.body}");
+  // debugPrint("back ground");
+  // debugPrint("onBackground_title : ${message.notification!.title}");
+  // debugPrint("onBackground_body : ${message.notification!.body}");
   await Firebase.initializeApp();
 }
 
